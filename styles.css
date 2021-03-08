@@ -1,0 +1,50 @@
+
+#search {
+    outline: 0;
+    border: none;
+    border: 1px solid lightgrey;
+    overflow: hidden;
+    perspective: 1; 
+    border-radius: 20px;
+    padding: 10px;
+}
+#search:focus {
+    outline: 0;
+}
+
+#search:hover {
+    box-shadow: 0 0 3px 1px lightgrey;
+}
+
+input[type=submit] {
+    border: none;
+    outline: 0;
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+input[type=submit]:hover {
+    box-shadow: 0 0 1px 1px grey;
+
+}
+input[type=submit]:focus {
+    box-shadow: 0 0 1px 1px rgb(0, 119, 255);
+
+    
+
+}
+
+.no-border {
+    border: 0px solid black;
+}
+
+footer {
+    position: absolute;
+    padding: 1em;
+    bottom: 0px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: light;
+}

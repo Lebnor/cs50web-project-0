@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search</title>
+        <!-- bootstrap css -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- custom css -->
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body>
+
+        <!-- navigation bar -->
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+                <!-- icon -->
+                <a class="navbar-brand" href="#">
+                    <img src="icon.png" alt="" width="30" height="30" class="d-inline-block align-top">
+                    <span class=" fs-1">Liel</span>
+                </a>
+                  
+                <!-- links to other pages -->
+                <div class="d-flex nav-item">
+                    <span class="navbar-text ">Go to:</span>
+                    <a href="index.html" class="nav-link ">Google Search</a>
+    
+                </div>
+    
+                </div>
+          </nav>
+
+
+        <!-- Google search -->
+        <div class="container">
+            <div class="mt-4"></div>
+            <!-- Google icon -->
+            <div class="row justify-content-center">
+                <img class="col-3" src="google.png" alt="google">
+            </div>
+            <div class="row justify-content-center">
+                    <div class="col-12 col-lg-6 col-sm-10">
+
+                        <!-- search input field -->
+                        <form action="https://google.com/search">
+
+                            
+                            <div>
+                                <label for="all-words" class="col-form-label">all these words:</label>
+                                <input id="all-words" class="form-control" type="text" name="as_q" >
+    
+                            </div>
+                            <div>
+                             <label for="exact-phrase" class="col-form-label">this exact word or phrase:</label>        
+                             <input id="exact-phrase" class="form-control" type="text" name="as_epq" >
+
+                            </div>
+                            <label for="any-words" class="col-form-label">any of these words:</label>        
+                            <input id="all-words" class="form-control" type="text" name="as_oq" >
+                            <div>
+                            </div>
+                            <div>
+                             <label for="none-words" class="col-form-label">none of these words:</label>
+                             <input id="none-words" class="form-control w-100" type="text" name="as_eq" >
+                            </div>
+
+
+                            
+                            <!-- search buttons -->
+                            <div class="row w-100 mx-auto mt-4 justify-content-center">
+
+                                <div class="col-auto p-1" >      
+                                    <input class="no-border p-2 text-dark rounded"  type="submit" value="Google Search"> 
+                                </div>
+
+                                <div class="col-auto p-1">
+                                    <input class="no-border p-2 text-dark rounded" name="btnI" type="submit" value="I'm Feeling Lucky"> 
+                                </div>
+                            </div>
+                        </form>
+                        
+
+                    </div>
+            </div>
+
+        </div>
+        <footer class="bg-light bg-gradient">
+            <div class="container-fluid">
+                <div class="text-dark row align-items-center justify-content-center">
+                CS50 web project 0: HTML/CSS 
+            </div>
+        </footer>
+
+    </body>
+</html>
